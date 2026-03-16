@@ -1,0 +1,46 @@
+body{
+font-family: Arial;
+text-align:center;
+margin-top:50px;
+background:#f4f6fb;
+}
+
+/* lista */
+
+.paginacao ul{
+list-style:none;
+display:flex;
+justify-content:center;
+padding:0;
+}
+
+/* itens */
+
+.paginacao li{
+border:1px solid #ddd;
+}
+
+/* links */
+
+.paginacao a{
+display:block;
+padding:10px 15px;
+text-decoration:none;
+color:#3b6df6;
+}
+
+/* arredondar cantos */
+
+.paginacao li:first-child{
+border-radius:5px 0 0 5px;
+}
+
+.paginacao li:last-child{
+border-radius:0 5px 5px 0;
+}
+
+/* efeito hover somente no segundo exemplo */
+
+.hover a:hover{
+background:#dfe3ea;
+}
